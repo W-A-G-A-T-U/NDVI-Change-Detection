@@ -98,7 +98,7 @@ print ("This image has the following bands:",image_bands)
 
 #Export the output to Google Grive.
 params = {
-    'description': 'ndvitrend_slope_1990-2019',
+    'description': 'ndvitrend_slope_2019-2022',
     'scale': 30,
     'region': AOI.geometry().getInfo()['coordinates'] #get list of coordinates from AOI
   }
